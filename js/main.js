@@ -142,6 +142,7 @@ document.addEventListener( 'DOMContentLoaded', function () {
 		gap         : 10,
 		cover       : true,
 		isNavigation: true,
+		pagination : false,
 		focus       : 'center',
 		breakpoints : {
 			'600': {
@@ -153,7 +154,8 @@ document.addEventListener( 'DOMContentLoaded', function () {
 	
 	var primarySlider = new Splide( '#primary-slider', {
 		type       : 'fade',
-		heightRatio: 0.5,
+		height      : 600,
+		heightRatio: 1,
 		pagination : false,
 		arrows     : false,
 		cover      : true,
