@@ -17,6 +17,10 @@
   });
 
 
+  	//Global Tooptip
+  	$(`a[data-toggle='tooltip']`).tooltip()
+
+
 	var fullHeight = function() {
 
 		$('.js-fullheight').css('height', $(window).height());
