@@ -11,7 +11,10 @@ $darken: #232931;
 $primary: #BBE2E0;
 $secondary: #b2bbc9;
 
-
+.owl-carousel .owl-stage, .owl-carousel.owl-drag .owl-item {
+	-ms-touch-action: auto;
+		touch-action: auto;
+}
 
 @mixin border-radius($radius) {
   -webkit-border-radius: $radius;
