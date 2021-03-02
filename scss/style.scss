@@ -10,6 +10,7 @@ $darken: #232931;
 
 $primary: #BBE2E0;
 $secondary: #b2bbc9;
+$linkcolor: #3c4c4b;
 
 .owl-carousel .owl-stage, .owl-carousel.owl-drag .owl-item {
 	-ms-touch-action: auto;
@@ -51,10 +52,10 @@ body {
 }
 a {
 	transition: .3s all ease;
-	color: $primary;
+	color: $linkcolor;
 	&:hover, &:focus {
 		text-decoration: none;
-		color: $primary;
+		color: $linkcolor;
 		outline: none !important;
 	}
 }
